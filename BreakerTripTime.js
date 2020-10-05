@@ -66,7 +66,6 @@ function triptime_cw_tcc(tcc,TDS,M){
 	return triptime_cw_ABCp(A,B,C,p,TDS,M);	
 }
 
-
 /*
 create short time pattern and return two arrays
 ts: array of time
@@ -79,7 +78,7 @@ function GetTimeTriptimePairsShort(tcc,TDS,rmax,rmin){
 	let L=rmin
 
 	// time and load
-	let td0=[2,3,2,3,2,3,2,3,100,50]//duration
+	let td0=[2,3,2,3,2,3,2,3,100,1]//duration
 	let Mp0=[H,L,H,L,H,L,H,L,L,L]//array of ratio of load to rating
 
 
@@ -258,3 +257,9 @@ console.log("\n1 spikes within 60s, repeat for 1 hours");
 [travel,time]=CheckBreakerLongTime(tcc,TDS,rmax,rmin)
 console.log("travel=",travel,"time=",time,"\n");
 }
+
+// let [a,b,c,d]=tccType["C1"]
+// console.log(a,b,c,d)
+
+
+
