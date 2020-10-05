@@ -1,5 +1,13 @@
 // @flow
 
+/*
+this is to calcualte the trip time of circuit breaker/relay under different load condition. 
+1) CW load
+2) Load with current spikes
+
+Last updated:  10/4/2020
+*/
+
 const U1=   [0.0104,0.02256,1.08,0.02];
 const U2=	[5.95,	0.18,	5.95,	2];
 const U3=	[3.88,	0.0963,	3.88,	2];
