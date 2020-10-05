@@ -260,6 +260,3 @@ console.log("travel=",travel,"time=",time,"\n");
 
 // let [a,b,c,d]=tccType["C1"]
 // console.log(a,b,c,d)
-
-
-
